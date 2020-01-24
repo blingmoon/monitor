@@ -1,0 +1,25 @@
+# 鼠标点击录入视频
+导入包:
+ClickProducer:
+    pip3 install pywin32
+
+    pip3 install data/pyHook-1.5.1-cp37-cp37m-win_amd64.whl
+
+    pip3 install PyUserInput
+
+
+BaiDuYunTransponder:
+    pip3 install requests
+
+
+ServerTransponder:
+    # 依赖 scp, windows 请自行安装pscp(putty自带)
+    pip install subprocess
+    # 使用前请配置好ssh免密登陆
+
+
+OpenCVProducer:
+    # 默认是国外 用豆瓣源快一点 pip3 install -i http://pypi.douban.com/simple opencv-python  --trusted-host pypi.douban.com
+    pip3 install opencv-python
+
+

@@ -1,0 +1,14 @@
+# -*- coding:utf-8 -*-
+# 控制鼠标移动点击的, 结构:
+# mouse(表示这是一个鼠标操作)  point(移动的位置) action(在这个位置的操作,单击,双击,后击等) sleep(休息时间)
+# keyboard(表示这是一个键盘操作) key1+key2...(按下的键, 两个key表示两个按键同时按下) sleep(休息时间)
+# eg:  mouse (0,0) CLICK_LEFT 1                   keyboard ctrl+A 0
+
+mouse (679, 394) CLICK_LEFT 1
+keyboard S 1
+keyboard S 1
+keyboard S 1
+# test1
+mouse (595, 468) CLICK_RIGHT 1
+
+
